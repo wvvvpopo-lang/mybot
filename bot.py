@@ -13,7 +13,7 @@ from telegram.ext import (
 # ==================== تنظیمات ====================
 BOT_TOKEN = "8109899106:AAEfYzpVUq6S6Fbs_7BRMgbIN0JN0rqeiic"
 ADMIN_IDS = [7837042019]  # ← آیدی عددی تلگرامت رو اینجا بذار
-DATA_FILE = "users_data.json"
+DATA_FILE = "/app/data/users_data.json"
 START_COINS = 1000
 MAX_MINER_LEVEL = 1000
 
