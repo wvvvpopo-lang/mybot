@@ -11,7 +11,8 @@ from telegram.ext import (
 )
 
 # ==================== تنظیمات ====================
-BOT_TOKEN = "8846290544:AAHiS-R6Huobu4xK27Fj5_6u_UeJQ8ASXs8"
+import os
+TOKEN = os.environ.get("8846290544:AAHiS-R6Huobu4xK27Fj5_6u_UeJQ8ASXs8")
 ADMIN_IDS = [7837042019]
 BOT_OWNER_ID = 7837042019 # ← آیدی مالک ربات (همون ادمین اصلی)
 BOT_NAME_TRIGGERS = ["ربی", "ربات", "bot", "بات"]  # کلماتی که ربات جواب میده
